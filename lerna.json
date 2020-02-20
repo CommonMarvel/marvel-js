@@ -3,7 +3,7 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "publish": {
       "message": "[skip ci] publish packages by lerna"
