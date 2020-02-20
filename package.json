@@ -4,7 +4,7 @@
   "scripts": {
     "lerna:install": "lerna bootstrap",
     "lerna:version": "lerna version",
-    "lerna:publish": "lerna publish"
+    "lerna:publish": "lerna publish --access public"
   },
   "repository": {
     "type": "git",
