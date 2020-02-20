@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/CommonMarvel/marvel-mono-js.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
@@ -24,5 +27,6 @@
     "eslint-plugin-vue": "^6.2.1",
     "lerna": "^3.20.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "version": "0.0.2"
 }
