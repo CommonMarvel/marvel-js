@@ -3,6 +3,7 @@ module.exports = {
     "plugin:vue/essential",
     "@vue/typescript"
   ],
+  "parser": "vue-eslint-parser",
   "rules": {
     "vue/attributes-order": "warn",
     "vue/max-attributes-per-line": [2, {

@@ -2,10 +2,8 @@ module.exports = {
   "root": true,
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
     "plugin:jest/recommended"
   ],
   "env": {
@@ -58,6 +56,5 @@ module.exports = {
     "brace-style": [2, "1tbs", {
       "allowSingleLine": true
     }]
-  },
-  "parserOptions": {"parser": "@typescript-eslint/parser"}
+  }
 };

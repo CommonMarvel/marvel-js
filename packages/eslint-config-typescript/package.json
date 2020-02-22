@@ -1,8 +1,8 @@
 {
-  "name": "@commonmarvel/eslint-config-essentials",
+  "name": "@commonmarvel/eslint-config-typescript",
   "version": "0.0.6",
-  "description": "Eslint essential config for common marvel",
-  "main": "lib/eslint-config-essentials.js",
+  "description": "Eslint typescript config for common marvel",
+  "main": "lib/eslint-config-typescript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,11 +21,9 @@
   },
   "homepage": "https://github.com/CommonMarvel/marvel-mono-js#readme",
   "dependencies": {
-    "eslint-config-standard": ">=14",
-    "eslint-plugin-import": ">=2.20",
-    "eslint-plugin-jest": ">=23",
-    "eslint-plugin-node": ">=11",
-    "eslint-plugin-promise": ">=4.2",
-    "eslint-plugin-standard": ">=4"
+    "@typescript-eslint/eslint-plugin": ">=2.20",
+    "@typescript-eslint/parser": ">=2.20",
+    "eslint-config-typescript": ">=3",
+    "eslint-plugin-import": ">=2.20"
   }
 }
