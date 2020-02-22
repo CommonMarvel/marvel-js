@@ -1,0 +1,30 @@
+{
+  "name": "@commonmarvel/eslint-config-vue",
+  "version": "0.0.5",
+  "description": "Eslint vue config for common marvel",
+  "main": "lib/eslint-config-vue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommonMarvel/marvel-mono-js.git"
+  },
+  "keywords": [
+    "eslint",
+    "commonmarvel",
+    "vue"
+  ],
+  "author": "carlos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CommonMarvel/marvel-mono-js/issues"
+  },
+  "homepage": "https://github.com/CommonMarvel/marvel-mono-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/eslint-config-typescript": ">=5",
+    "eslint-plugin-vue": ">=6.2",
+    "vue-eslint-parser": ">=7"
+  }
+}

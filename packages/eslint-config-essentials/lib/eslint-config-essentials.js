@@ -5,7 +5,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:jest/recommended"
   ],
   "env": {
     "browser": true,
