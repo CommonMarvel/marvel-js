@@ -1,6 +1,6 @@
 {
   "name": "@commonmarvel/eslint-config-vue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Eslint vue config for common marvel",
   "main": "lib/eslint-config-vue.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "url": "https://github.com/CommonMarvel/marvel-mono-js/issues"
   },
   "homepage": "https://github.com/CommonMarvel/marvel-mono-js#readme",
-  "dependencies": {},
   "devDependencies": {
     "@vue/eslint-config-typescript": ">=5",
     "eslint-plugin-vue": ">=6.2",
