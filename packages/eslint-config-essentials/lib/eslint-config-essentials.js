@@ -8,8 +8,7 @@ module.exports = {
   ],
   "env": {
     "browser": true,
-    "node": true,
-    "jest/globals": true
+    "node": true
   },
   "rules": {
     "indent": "off",
