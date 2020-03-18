@@ -11,7 +11,7 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "indent": "off",
+    "indent": ["error", 4],
     "max-len": ["warn", 150],
     "comma-dangle": [2, "never"],
     "quotes": [
