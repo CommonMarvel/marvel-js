@@ -11,7 +11,12 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "indent": ["error", 4],
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "key-spacing": ["error", {
+      "beforeColon": false,
+      "afterColon": true
+    }],
+    "space-infix-ops": ["error", { "int32Hint": false }],
     "max-len": ["warn", 150],
     "comma-dangle": [2, "never"],
     "quotes": [
