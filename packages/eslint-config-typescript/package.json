@@ -1,6 +1,6 @@
 {
   "name": "@commonmarvel/eslint-config-typescript",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Eslint typescript config for common marvel",
   "main": "lib/eslint-config-typescript.js",
   "scripts": {
