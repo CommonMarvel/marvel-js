@@ -31,7 +31,7 @@ module.exports = {
     "semi": ["error", "always"],
     "space-before-function-paren": "off",
     "prefer-promise-reject-errors": "off",
-    "no-console": ["error", { "allow": ["error", "warn"] }],
+    "no-console": ["error", { "allow": ["error", "warn", "info"] }],
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     "import/prefer-default-export": "off",
     "import/no-named-as-default": "off",
