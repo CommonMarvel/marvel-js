@@ -17,7 +17,7 @@ module.exports = {
       "afterColon": true
     }],
     "space-infix-ops": ["error", { "int32Hint": false }],
-    "max-len": ["warn", 150],
+    "max-len": ["error", 150],
     "comma-dangle": [2, "never"],
     "quotes": [
       "error",
