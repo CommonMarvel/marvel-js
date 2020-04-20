@@ -57,6 +57,7 @@ module.exports = {
       "after": true
     }],
     "block-spacing": [2, "always"],
+    "space-before-blocks": "error",
     "brace-style": [2, "1tbs", {
       "allowSingleLine": true
     }]
