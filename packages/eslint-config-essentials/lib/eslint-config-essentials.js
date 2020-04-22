@@ -29,7 +29,6 @@ module.exports = {
       "after": true
     }],
     "semi": ["error", "always"],
-    "space-before-function-paren": "off",
     "prefer-promise-reject-errors": "off",
     "no-console": ["error", { "allow": ["error", "warn", "info"] }],
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
@@ -57,9 +56,16 @@ module.exports = {
       "after": true
     }],
     "block-spacing": [2, "always"],
-    "space-before-blocks": "error",
     "brace-style": [2, "1tbs", {
       "allowSingleLine": true
-    }]
+    }],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "space-before-blocks": ["error", { "functions": "always", "keywords": "always", "classes": "always" }],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "jest/expect-expect": "off"
   }
 };
