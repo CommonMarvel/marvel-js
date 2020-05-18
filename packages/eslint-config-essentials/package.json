@@ -1,6 +1,6 @@
 {
   "name": "@commonmarvel/eslint-config-essentials",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Eslint essential config for common marvel",
   "main": "lib/eslint-config-essentials.js",
   "scripts": {
