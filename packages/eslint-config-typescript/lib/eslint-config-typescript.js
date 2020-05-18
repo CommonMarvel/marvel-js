@@ -1,7 +1,6 @@
 module.exports = {
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript"
+    "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",

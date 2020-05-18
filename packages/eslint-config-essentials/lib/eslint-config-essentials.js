@@ -1,10 +1,7 @@
 module.exports = {
   "root": true,
   "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:jest/recommended"
+    "eslint:recommended"
   ],
   "env": {
     "browser": true,
@@ -32,9 +29,6 @@ module.exports = {
     "prefer-promise-reject-errors": "off",
     "no-console": ["error", { "allow": ["error", "warn", "info"] }],
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
-    "import/prefer-default-export": "off",
-    "import/no-named-as-default": "off",
-    "import/default": "off",
     "complexity": ["error", 8],
     "arrow-parens": ["error", "always"],
     "object-curly-spacing": [2, "always", {
