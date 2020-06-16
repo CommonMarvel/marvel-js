@@ -1,0 +1,25 @@
+{
+  "name": "@commonmarvel/stylelint-config",
+  "version": "0.0.15",
+  "description": "Stylelint config for common marvel",
+  "author": "carlos<echoulen@gmail.com>",
+  "homepage": "https://github.com/CommonMarvel/marvel-mono-js#readme",
+  "license": "MIT",
+  "main": "lib/stylelint-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommonMarvel/marvel-mono-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CommonMarvel/marvel-mono-js/issues"
+  },
+  "dependencies": {
+    "stylelint-config-recommended-scss": ">=3.3",
+    "stylelint-order": ">=3",
+    "stylelint-processor-html": ">=1",
+    "stylelint-scss": ">=3.6"
+  },
+  "peerDependencies": {
+    "stylelint": ">=10"
+  }
+}
