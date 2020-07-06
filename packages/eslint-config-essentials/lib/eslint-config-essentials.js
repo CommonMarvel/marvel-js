@@ -1,7 +1,11 @@
 module.exports = {
   "root": true,
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
   ],
   "env": {
     "browser": true,
@@ -60,6 +64,14 @@ module.exports = {
       "named": "never",
       "asyncArrow": "always"
     }],
-    "jest/expect-expect": "off"
+    "jest/expect-expect": "off",
+    "import/order": ["error", {
+      "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object"],
+      "alphabetize": {
+        "order": "asc", /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */
+        "caseInsensitive": true /* ignore case. Options: [true, false] */
+      }
+    }],
+    "import/no-unresolved": "off"
   }
 };
